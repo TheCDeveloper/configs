@@ -27,7 +27,8 @@ M.ui = {
   },
 
   cmp = {
-    style = "atom"
+    style = "default",
+    icons_left = true
   }
 }
 
