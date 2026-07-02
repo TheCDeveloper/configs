@@ -1,0 +1,27 @@
+[general]
+import = [
+    "~/.config/alacritty/catppuccin-mocha.toml"
+]
+
+
+[font]
+normal = {
+    family = "JetBrainsMono NFM",
+    style = "Regular"
+}
+
+bold = {
+    family = "JetBrainsMono NFM",
+    style = "Bold"
+}
+
+italic = {
+    family = "JetBrainsMono NFM",
+    style = "Italic"
+}
+
+size = 15
+
+
+[debug]
+renderer = "gles2pure"
