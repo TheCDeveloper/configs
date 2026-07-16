@@ -1,0 +1,187 @@
+* {
+    font-family: "JetBrainsMono NF";
+    font-size: 11pt;
+}
+
+
+window#waybar {
+    color: #d9e0ee;
+    background-color: transparent;
+}
+
+
+#workspaces button {
+    background-color: #1e1e2e;
+
+    border: none;
+    border-radius: 4px;
+
+    margin: 6px 2px 0px 2px;
+    padding: 2px 6px;
+}
+
+#workspaces button:hover {
+    color: #c7d1ff;
+}
+
+#workspaces button.focused, #workspaces button.active {
+    color: #1e1e2e;
+    background-color: #cba6f7;
+}
+
+#workspaces button.urgent {
+    color: #1e1e2e;
+    background-color: #ffa5c3;
+}
+
+#workspaces button:first-child {
+    border-radius: 15px 6px 6px 15px;
+    margin-left: 6px;
+}
+
+#workspaces button:last-child {
+    border-radius: 6px 15px 15px 6px;
+    margin-right: 0px;
+}
+
+#workspaces button:only-child {
+    border-radius: 15px;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+
+#mode {
+    color: #1e1e2e;
+    background-color: #89b4fa;
+    border-radius: 15px;
+    
+    font-size: 10pt;
+
+    margin: 6px 4px 0px 4px;
+    padding: 2px 16px;
+}
+
+
+#scratchpad {
+    color: #1e1e2e;
+    background-color: #89b4fa;
+    border-radius: 15px;
+    
+    font-size: 10pt;
+
+    margin: 6px 4px 0px 4px;
+    padding: 2px 16px;
+}
+
+#scratchpad.empty {
+	background-color: transparent;
+}
+
+
+#memory {
+    color: #d9e0ee;
+    background-color: #1e1e2e;
+    border-radius: 15px;
+    
+    font-size: 10pt;
+
+    margin: 6px 4px 0px 4px;
+    padding: 2px 16px;
+}
+
+
+#window {
+    color: #d9e0ee;
+    background-color: #1e1e2e;
+    border-radius: 15px;
+    
+    font-size: 10pt;
+
+    margin: 6px 4px 0px 4px;
+    padding: 2px 16px;
+}
+
+
+#pulseaudio {
+    color: #89b4fa;
+    background-color: #1e1e2e;
+    border-radius: 15px 6px 6px 15px;
+    
+    font-size: 10pt;
+
+    margin: 6px 1px 0px 4px;
+    padding: 2px 16px;
+}
+
+#pulseaudio.muted {
+    color: #4e4d5d;
+}
+
+
+#network {
+    color: #1e1e2e;
+    background-color: #abe9b3;
+    border-radius: 6px;
+    
+    font-size: 10pt;
+
+    margin: 6px 1px 0px 1px;
+    padding: 0px 16px;
+}
+
+#network.disconnected {
+    color: #ffa5c3;
+    background-color: #1e1e2e;
+}
+
+
+#clock {
+    color: #d9e0ee;
+    background-color: #1e1e2e;
+    border-radius: 6px;
+    
+    font-size: 10pt;
+
+    margin: 6px 1px 0px 1px;
+    padding: 2px 16px;
+}
+
+
+#power-profiles-daemon {
+    color: #d9e0ee;
+    background-color: #1e1e2e;
+    border-radius: 6px;
+    
+    font-size: 10pt;
+
+    margin: 6px 1px 0px 1px;
+    padding: 2px 16px;
+}
+
+#power-profiles-daemon.performance {
+    color: #1e1e2e;
+    background-color: #fae3b0;
+}
+
+#power-profiles-daemon.balanced {
+    color: #c7d1ff;
+    background-color: #1e1e2e;
+}
+
+#power-profiles-daemon.power-saver {
+    color: #1e1e2e;
+    background-color: #abe9b3;
+}
+
+
+#custom-power {
+    color: #1e1e2e;
+    background-color: #f38ba8;
+    border-radius: 6px 15px 15px 6px;
+    
+    font-size: 10pt;
+
+    margin: 6px 6px 0px 1px;
+    padding: 0px 16px;
+}
