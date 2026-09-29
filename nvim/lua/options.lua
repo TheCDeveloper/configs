@@ -1,4 +1,5 @@
 require "nvchad.options"
+require "configs.neovide"
 
 -- add yours here!
 
@@ -8,3 +9,5 @@ o.expandtab = true
 
 o.number = true
 o.relativenumber = true
+
+o.winblend = 20

@@ -7,7 +7,7 @@ local M = {}
 
 M.base46 = {
   theme = "catppuccin",
-  transparency = true,
+  transparency = false,
 
   hl_override = {
   	Comment = { italic = true },
@@ -29,6 +29,10 @@ M.ui = {
   cmp = {
     style = "default",
     icons_left = true
+  },
+
+  telescope = {
+      style = "borderless"
   }
 }
 
